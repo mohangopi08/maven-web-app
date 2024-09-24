@@ -18,7 +18,7 @@ spec:
   spec: 
     containers:
     - name: mavenwebappcontainer
-      image: swargamgopi/cicddevops:latest
+      image: swargamgopi/cicddevops
       imagePullPolicy: Always
       ports:
       - containerPort: 8080
